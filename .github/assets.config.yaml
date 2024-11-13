@@ -16,8 +16,7 @@ time_format: "2006-01-02T15:04:05.000000"
 validators_settings:
   root_folder:
     allowed_files:
-      - ".github"
-      - "blockchains"
+      - ".github
       - "dapps"
       - "media"
       - "node_modules"
@@ -48,7 +47,6 @@ validators_settings:
 
   chain_folder:
     allowed_files:
-      - "assets"
       - "tokenlist.json"
       - "chainlist.json"
       - "tokenlist-extended.json"
@@ -63,9 +61,7 @@ validators_settings:
   chain_info_folder:
     has_files:
       - "logo.png"
-      - "info.json"
-
-  chain_validators_asset_folder:
+      
     has_files:
       - "logo.png"
 
